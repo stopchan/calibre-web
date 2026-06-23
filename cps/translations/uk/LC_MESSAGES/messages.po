@@ -1,14 +1,14 @@
-# Переклад на українську мову для Calibre-web.
+# Український переклад для Calibre-Web.
 # Copyright (C) 2018 ABIS Team
 # This file is distributed under the same license as the Calibre-web project
-# ABIS Team <biblio.if.abis@gmail.com>, 2018.
+# Vitalii Stopchanskyi <stopchan@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version:  Calibre-web\n"
 "Report-Msgid-Bugs-To: https://github.com/janeczku/calibre-web\n"
 "POT-Creation-Date: 2026-04-25 13:25+0200\n"
 "PO-Revision-Date: 2017-04-30 00:47+0300\n"
-"Last-Translator: ABIS Team <biblio.if.abis@gmail.com>\n"
+"Last-Translator: Vitalii Stopchanskyi <stopchan@gmail.com>\n"
 "Language: uk\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -24,16 +24,16 @@ msgstr "Статистика"
 #: cps/admin.py:151
 #, fuzzy
 msgid "Server restarted, please reload page."
-msgstr "Сервер перезавантажено, будь-ласка, перезавантажте сторінку"
+msgstr "Сервер перезавантажено. Будь ласка, перезавантажте сторінку."
 
 #: cps/admin.py:153
 #, fuzzy
 msgid "Performing Server shutdown, please close window."
-msgstr "Виконується зупинка серверу, будь-ласка, закрийте вікно"
+msgstr "Виконується вимкнення сервера. Будь ласка, закрийте вікно."
 
 #: cps/admin.py:161
 msgid "Success! Database Reconnected"
-msgstr ""
+msgstr "Базу даних успішно перепід'єднано"
 
 #: cps/admin.py:164
 msgid "Unknown command"
@@ -41,13 +41,13 @@ msgstr "Невідома команда"
 
 #: cps/admin.py:175
 msgid "Success! Books queued for Metadata Backup, please check Tasks for result"
-msgstr ""
+msgstr "Вдалося! Книги поставлено в чергу для резервного копіювання метаданих. Щоб побачити результат перевірте завдання"
 
 #: cps/admin.py:208 cps/editbooks.py:808 cps/editbooks.py:852
 #: cps/editbooks.py:1520 cps/updater.py:615 cps/uploader.py:108
 #: cps/uploader.py:117
 msgid "Unknown"
-msgstr "Невідомий"
+msgstr "Невідомо"
 
 #: cps/admin.py:233
 msgid "Admin page"
@@ -55,27 +55,27 @@ msgstr "Сторінка адміністратора"
 
 #: cps/admin.py:253
 msgid "Basic Configuration"
-msgstr "Настройки сервера"
+msgstr "Основні налаштування"
 
 #: cps/admin.py:291
 msgid "UI Configuration"
-msgstr "Конфігурація інтерфейсу"
+msgstr "Конфіґурація інтерфейсу"
 
 #: cps/admin.py:315 cps/admin.py:1002 cps/db.py:808 cps/search.py:150
 #: cps/web.py:750
 #, python-format
 msgid "Custom Column No.%(column)d does not exist in calibre database"
-msgstr ""
+msgstr "Власний стовпчик №%(column)d відсутній у базі даних Calibre"
 
 #: cps/admin.py:333 cps/templates/admin.html:51
 #, fuzzy
 msgid "Edit Users"
-msgstr "Керування сервером"
+msgstr "Редагувати користувачів"
 
 #: cps/admin.py:378 cps/opds.py:559 cps/templates/grid.html:14
 #: cps/templates/list.html:13
 msgid "All"
-msgstr "Всі"
+msgstr "Усі"
 
 #: cps/admin.py:401 cps/admin.py:1432
 msgid "User not found"
@@ -84,136 +84,136 @@ msgstr "Користувача не знайдено"
 #: cps/admin.py:415
 #, python-brace-format
 msgid "{} users deleted successfully"
-msgstr "{} користувачі видалені успішно"
+msgstr "{} користувачів видалено успішно"
 
 #: cps/admin.py:438 cps/templates/config_view_edit.html:133
 #: cps/templates/user_edit.html:45 cps/templates/user_table.html:81
 msgid "Show All"
-msgstr "Показати всі"
+msgstr "Показати усі"
 
 #: cps/admin.py:459 cps/admin.py:465
 msgid "Malformed request"
-msgstr ""
+msgstr "Хибний запит"
 
 #: cps/admin.py:477 cps/admin.py:2078
 msgid "Guest Name can't be changed"
-msgstr ""
+msgstr "Ім'я гостя неможливо змінити"
 
 #: cps/admin.py:489
 msgid "Guest can't have this role"
-msgstr ""
+msgstr "Гість не може мати цієї ролі"
 
 #: cps/admin.py:501 cps/admin.py:2032
 msgid "No admin user remaining, can't remove admin role"
-msgstr ""
+msgstr "Оскільки не залишиться жодного адміністратора, тому неможливо вилучити адміністративну роль"
 
 #: cps/admin.py:505 cps/admin.py:519
-msgid "Value has to be true or false"
-msgstr ""
+msgid "Value has to be true r false"
+msgstr "Значення можу бути істинним або хибним"
 
 #: cps/admin.py:507
 msgid "Invalid role"
-msgstr "Не правильна роль"
+msgstr "Хибна роль"
 
 #: cps/admin.py:511
 msgid "Guest can't have this view"
-msgstr ""
+msgstr "Гість не може мати такий вигляд"
 
 #: cps/admin.py:521
 msgid "Invalid view"
-msgstr ""
+msgstr "Хибний вигляд"
 
 #: cps/admin.py:524
 msgid "Guest's Locale is determined automatically and can't be set"
-msgstr ""
+msgstr "Локаль гостя визначається автоматично і її неможливо змінити"
 
 #: cps/admin.py:528
 msgid "No Valid Locale Given"
-msgstr ""
+msgstr "Не вказано жодної дійсної локалі"
 
 #: cps/admin.py:539
 msgid "No Valid Book Language Given"
-msgstr ""
+msgstr "Не вказано жодної дійсної мови книги"
 
 #: cps/admin.py:541 cps/editbooks.py:243 cps/editbooks.py:428
 #: cps/editbooks.py:430
 msgid "Parameter not found"
-msgstr ""
+msgstr "Параметр не знайдено"
 
 #: cps/admin.py:578
 msgid "Invalid Read Column"
-msgstr ""
+msgstr "Хибний стовпчик читання"
 
 #: cps/admin.py:584
 msgid "Invalid Restricted Column"
-msgstr ""
+msgstr "Хибний стовчик з обмеженнями"
 
 #: cps/admin.py:604 cps/admin.py:1903
 msgid "Calibre-Web configuration updated"
-msgstr ""
+msgstr "Конфіґурацію Calibre-Web оновлено"
 
 #: cps/admin.py:616
 msgid "Do you really want to delete the Kobo Token?"
-msgstr ""
+msgstr "Справді видалити Kobo Token?"
 
 #: cps/admin.py:618
 msgid "Do you really want to delete this domain?"
-msgstr ""
+msgstr "Справді видалити цей домен?"
 
 #: cps/admin.py:620
 msgid "Do you really want to delete this user?"
-msgstr ""
+msgstr "Справді видалити цього користувача?"
 
 #: cps/admin.py:622
 #, fuzzy
 msgid "Do you really want to delete this book?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді видалити цю книгу?"
 
 #: cps/admin.py:624
 msgid "Are you sure you want to delete this shelf?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді видалити цю книжкову полицю?"
 
 #: cps/admin.py:626
 #, fuzzy
 msgid "Are you sure you want to change locales of selected user(s)?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити локалі вибраних користувачів?"
 
 #: cps/admin.py:628
 msgid "Are you sure you want to change visible book languages for selected user(s)?"
-msgstr ""
+msgstr "Справді змінити видимі мови книг для цього користувача?"
 
 #: cps/admin.py:630
 msgid "Are you sure you want to change the selected role for the selected user(s)?"
-msgstr ""
+msgstr "Справді змінити вибрану роль для вибраних користувачів?"
 
 #: cps/admin.py:632
 #, fuzzy
 msgid "Are you sure you want to change the archive status for the selected book(s)?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити статус архівування для вибраних книг?"
 
 #: cps/admin.py:634
 #, fuzzy
 msgid "Are you sure you want to change the read status for the selected book(s)?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити стан читання для вибраних книг?"
 
 #: cps/admin.py:636
 #, fuzzy
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити вибрані обмеження для вибраних користувачів?"
 
 #: cps/admin.py:638
 msgid "Are you sure you want to change the selected visibility restrictions for the selected user(s)?"
-msgstr ""
+msgstr "Справді змінити вибрані обмеження видимості для вибраних користувачів?"
 
 #: cps/admin.py:641
 #, fuzzy
 msgid "Are you sure you want to change shelf sync behavior for the selected user(s)?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити поведінку синхронізації полиці для вибраних користувачів?"
 
 #: cps/admin.py:643
 #, fuzzy
 msgid "Are you sure you want to change Calibre library location?"
-msgstr "Ви справді хочете видалити книжкову полицю?"
+msgstr "Справді змінити місцезнаходження бібліотеки Calibre?"
 
 #: cps/admin.py:645
 msgid "Calibre-Web will search for updated Covers and update Cover Thumbnails, this may take a while?"
